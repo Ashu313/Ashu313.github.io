@@ -1,0 +1,95 @@
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e,lightblue, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} 
+
+.text-container
+{
+    color: orange;
+
+}
+
+.toggle label{
+    background-color: #777;
+    border: 3px solid #555;
+    border-radius: 60px;
+    cursor: pointer;
+    display: inline-flex;
+    position: relative;
+    transition: all ease-in-out 0.5s;
+    width: 100px;
+    height:50px;
+
+}
+.toggle{
+    margin: left 25px;
+}
+.toggle label::after {
+    background-color: #555;
+    border-radius: 100%;
+    content: ' ';
+    cursor: pointer;
+    display: inline-flex;
+    position: absolute;
+    transition: all ease-in-out 0.5s;
+    width: 42px;
+    height: 50px;
+}
+.toggle input[type='checkbox']:checked~label{
+    background-color:orange;
+    border-color: black;
+}
+.toggle input[type='checkbox']:checked~label::after{
+    background-color:#0054b0;
+    transform: translate(50px);
+}
+
+.dark-theme{
+    background: black;
+    background-color: black;
+    
+}
+.dark-theme #table{
+    
+    color:white;
+    font-size: 20px;
+}
+.dark-theme #cx{
+    
+    color:white;
+    font-size: 20px;
+}
+.dark-theme #todo{
+    
+    color:white;
+    font-size: 50px;
+}
+.dark-theme #dd{
+    text-align: end;
+    font-size: 20px;
+    color: white;
+}
+.dark-theme #road{
+  
+    background:black
+}
+.dark-theme #cx{
+    color: white;
+}
+.dark-theme #inline{
+    color: white;
+}

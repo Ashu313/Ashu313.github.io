@@ -1,0 +1,240 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body
+{
+    margin: 0;
+    padding: 0;
+
+}
+.foot{
+    background: linear-gradient(-45deg, #e73c7e,lightblue);
+}
+
+ 
+    
+
+#cx{
+    font-size: 30px;
+}
+
+#lblsuccess{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+i.bi bi-facebook{
+    width: 100%;
+
+}
+.social .in{
+    font-size: 24px;
+}
+.foot .social .list-inline  a i{
+    
+   
+    font-size: 24px;
+    text-align:center;
+  padding-bottom:25px;
+  color:inherit;
+  list-style:none;
+  text-decoration:none;
+  width: 40px;
+line-height:40px;
+  display:inline-flex;
+  text-align:center;
+  border-radius: 35px;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+
+}
+/*.list-inline{
+    display: flex;
+    align-items: center;
+    background: chartreuse;
+    padding: 24px;
+    margin-left: 210px;
+    width: 45%;
+}  */
+.list-inline li a{
+    margin-left:270px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    line-height:1.6;
+
+    
+}
+.list-inline ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  .list-inline ul a:hover{
+      opacity: 1;
+  }
+
+.text{
+    color:darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+
+}
+#dd{
+    text-align: end;
+    font-size: 20px;
+}
+
+.res{
+    display: flex;
+    width: auto;
+    height: 30px;
+}
+#down{
+    list-style: none;
+    text-align: center;
+
+}
+#down li{
+    display: inline-block;
+}
+
+#table,#cx
+{
+    color:black;
+    font-size: 20px;
+}
+
+#navbaa{
+    max-width: 100%;
+}
+#image
+{
+    display: flex;
+    align-items: center;
+    margin-left: 420px;
+    width: 40%;
+    height: 80px;
+}
+#dogla
+{
+    width: 100px;
+}
+
+#todo{
+    font-size:45px;
+    margin-top:150px;
+    text-decoration:none;
+    color: black;
+ display:block;
+}
+#description,#clll,#submit,#add{
+box-shadow: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+#description{
+    padding: 28px;
+    border: 5px light black;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      margin: 0;
+  padding: 0;
+
+    }
+    .foot{
+        display: auto;
+    
+        width: 553px;
+        box-sizing: border-box;
+        padding: 10px;
+        position: relative;
+
+    }
+    #add,#submit,#clll,#description{
+        display: auto;
+        margin-left: 45%;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    #description{
+        padding: 68px;
+        margin-left: 45%;
+
+    }
+    #todo{
+        font-size: 32px;
+        margin-top: 35%;
+        color: white;
+
+     display: block;
+    }
+    #image{
+        width: 100px;
+    /* margin-right: auto; */
+    margin-left: 200px;
+}}
+@media only screen and (max-width: 450px)
+{
+    body{
+margin: 0;
+padding: 0;
+    }
+    #image{
+        width: 100px;
+    /* margin-right: auto; */
+    margin-left: 180px;
+    height: 100px;
+    }
+    #dogla
+{
+    width: 80px;
+    margin-left: 180px;
+}
+
+#todo{
+  
+    width: 90px;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) 
+{
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: blue;
+    }
+#image{
+    margin-left: 210px;
+    width: 300px;
+    margin-right: auto;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) 
+{
+
+    #image{
+        margin-left: 310px;
+        width: 360px;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 720px) 
+{
+    #image{
+        margin-left: 200px;
+        width: 360px;
+        margin-right: auto;
+    }
+}
