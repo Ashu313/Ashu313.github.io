@@ -124,7 +124,9 @@ function generic()
      
        //itemsJsonArray=JSON.parse(itemsJsonArraystr);  //for string to objects client side
        itemsJsonArray.push(itemobj);
-       localStorage.setItem('itemsJson',JSON.stringify(itemsJsonArray));  //for converting objects to array
+       localStorage.setItem('itemsJson',JSON.stringify(itemsJsonArray)); 
+	         document.getElementById("add").value="";
+    document.getElementById("description").value="";//for converting objects to array
    }
 else
 {
