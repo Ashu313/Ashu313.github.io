@@ -154,7 +154,7 @@ box-shadow: black;
         width: 553px;
         box-sizing: border-box;
         padding: 10px;
-        position: relative;
+        position: fixed;
 
     }
     #add,#submit,#clll,#description{
@@ -198,6 +198,9 @@ padding: 0;
     width: 80px;
     margin-left: 180px;
 }
+.foot{
+    position: fixed;
+}
 
 #todo{
   
@@ -206,6 +209,9 @@ padding: 0;
     text-align: center;
     display: flex;
     justify-content: space-between;
+}
+.foot{
+    position: fixed;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) 
@@ -220,6 +226,9 @@ padding: 0;
     width: 300px;
     margin-right: auto;
 }
+.foot{
+    position: fixed;
+}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) 
 {
@@ -229,6 +238,9 @@ padding: 0;
         width: 360px;
         margin-right: auto;
     }
+    .foot{
+        position: fixed;
+    }
 }
 @media only screen and (min-width: 540px) and (max-width: 720px) 
 {
@@ -236,5 +248,8 @@ padding: 0;
         margin-left: 200px;
         width: 360px;
         margin-right: auto;
+    }
+    .foot{
+        position: fixed;
     }
 }
