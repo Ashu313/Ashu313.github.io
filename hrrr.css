@@ -31,8 +31,8 @@ body {
     display: inline-flex;
     position: relative;
     transition: all ease-in-out 0.5s;
-    width: 100px;
-    height:50px;
+    width: 70px;
+    height:40px;
 
 }
 .toggle{
@@ -46,8 +46,8 @@ body {
     display: inline-flex;
     position: absolute;
     transition: all ease-in-out 0.5s;
-    width: 42px;
-    height: 50px;
+    width: 30px;
+    height: 33px;
 }
 .toggle input[type='checkbox']:checked~label{
     background-color:orange;
@@ -55,7 +55,7 @@ body {
 }
 .toggle input[type='checkbox']:checked~label::after{
     background-color:#0054b0;
-    transform: translate(50px);
+    transform: translate(30px);
 }
 
 .dark-theme{
