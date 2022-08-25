@@ -52,14 +52,7 @@ line-height:40px;
   opacity:0.75;
 
 }
-/*.list-inline{
-    display: flex;
-    align-items: center;
-    background: chartreuse;
-    padding: 24px;
-    margin-left: 210px;
-    width: 45%;
-}  */
+
 .list-inline li a{
     margin-left:270px;
     text-align: center;
